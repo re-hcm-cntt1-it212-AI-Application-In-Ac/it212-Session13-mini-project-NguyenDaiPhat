@@ -1,0 +1,423 @@
+Prompt 01 - Thiết lập vai trò
+Đóng vai một IT Consultant, Senior Business Analyst và Solution Architect có hơn 10 năm kinh nghiệm thiết kế các hệ thống quản lý khách sạn và resort.
+
+Tôi đang thực hiện đồ án System Design.
+
+Bạn sẽ hỗ trợ tôi xây dựng toàn bộ tài liệu SRS theo chuẩn IEEE 830.
+
+Mọi nội dung phải mang tính thực tế, phù hợp với doanh nghiệp, không được trả lời quá ngắn.
+
+Trong suốt cuộc hội thoại hãy luôn giữ vai trò này.
+Prompt 02 - Phân tích bài toán
+Hệ thống cần xây dựng là Hotel Management System.
+
+Yêu cầu:
+
+Phân tích bài toán.
+
+Trả về:
+
+- Giới thiệu hệ thống
+- Mục tiêu hệ thống
+- Phạm vi hệ thống
+- Các vấn đề cần giải quyết
+- Lợi ích mang lại
+
+Trình bày bằng Markdown.
+Prompt 03 - Actors
+Tiếp tục.
+
+Hãy xác định toàn bộ Actors của hệ thống.
+
+Yêu cầu ít nhất 5 Actors.
+
+Đối với mỗi Actor hãy mô tả:
+
+- Vai trò
+- Quyền hạn
+- Chức năng chính
+- Mối quan hệ với hệ thống
+
+Xuất thành bảng Markdown.
+Prompt 04 - Module
+Tiếp tục.
+
+Thiết kế các Module chính của hệ thống.
+
+Yêu cầu tối thiểu 6 Module.
+
+Ví dụ:
+
+- Booking
+- Room Management
+- Customer Management
+- Payment
+- Staff Management
+- Report
+
+Đối với mỗi Module hãy mô tả:
+
+- Chức năng
+- Input
+- Output
+- Quan hệ với Module khác
+Prompt 05 - Business Flow
+Hãy mô tả Business Flow chi tiết.
+
+Bao gồm:
+
+1.
+
+Khách đặt phòng.
+
+2.
+
+Lễ tân xác nhận.
+
+3.
+
+Thanh toán.
+
+4.
+
+Check-in.
+
+5.
+
+Check-out.
+
+6.
+
+Xuất hóa đơn.
+
+Viết theo từng bước.
+
+Không tạo sơ đồ.
+Prompt 06 - Functional Requirements
+Hãy phân tích Functional Requirements.
+
+Yêu cầu tối thiểu 30 Functional Requirements.
+
+Mỗi Requirement gồm:
+
+- ID
+
+- Tên
+
+- Mô tả
+
+- Priority
+
+- Actor
+
+Xuất thành bảng Markdown.
+Prompt 07 - Non Functional Requirements
+Tiếp tục.
+
+Phân tích Non Functional Requirements.
+
+Bao gồm:
+
+- Security
+
+- Performance
+
+- Availability
+
+- Reliability
+
+- Scalability
+
+- Maintainability
+
+- Logging
+
+- Backup
+
+- Recovery
+
+- Audit
+
+Trình bày theo từng nhóm.
+Prompt 08 - Business Rules
+Hãy sinh Business Rules.
+
+Ít nhất 20 Rule.
+
+Ví dụ:
+
+- Không được đặt phòng đã có khách.
+
+- Một khách có thể đặt nhiều phòng.
+
+- Không được Check-out trước Check-in.
+
+...
+
+Xuất thành bảng.
+Prompt 09 - User Stories
+Dựa trên toàn bộ phân tích.
+
+Sinh User Stories.
+
+Theo mẫu:
+
+As a ...
+
+I want ...
+
+So that ...
+
+Mỗi User Story có:
+
+- ID
+
+- Priority
+
+- Acceptance Criteria
+
+Xuất thành bảng Markdown.
+Prompt 10 - Use Cases
+Sinh toàn bộ Use Cases.
+
+Đối với mỗi Use Case:
+
+- ID
+
+- Name
+
+- Actor
+
+- Preconditions
+
+- Main Flow
+
+- Alternative Flow
+
+- Exception Flow
+
+Không bỏ sót chức năng nào.
+Prompt 11 - Use Case Diagram
+Sinh sơ đồ Use Case bằng Mermaid.
+
+Yêu cầu:
+
+- Có đầy đủ Actor.
+
+- Có include.
+
+- Có extend.
+
+- Không để Actor bị cô lập.
+
+- Trình bày đẹp.
+
+Chỉ trả về Mermaid.
+Prompt 12 - ERD
+Thiết kế CSDL.
+
+Sinh Entity Relationship Diagram bằng Mermaid.
+
+Yêu cầu:
+
+Có tối thiểu:
+
+Customer
+
+Booking
+
+Room
+
+Payment
+
+Invoice
+
+Employee
+
+Service
+
+Reservation
+
+RoomType
+
+Định nghĩa rõ:
+
+PK
+
+FK
+
+1-N
+
+N-N
+
+Không bỏ sót khóa ngoại.
+Prompt 13 - Sequence Diagram
+Sinh Sequence Diagram cho chức năng Đặt phòng.
+
+Các thành phần:
+
+Customer
+
+Web
+
+BookingController
+
+BookingService
+
+Database
+
+PaymentService
+
+Sử dụng Mermaid.
+Prompt 14 - Kiểm tra và chỉnh sửa (rất quan trọng)
+Đóng vai Senior Solution Architect.
+
+Review toàn bộ tài liệu.
+
+Kiểm tra:
+
+- Logic nghiệp vụ.
+
+- Functional Requirements.
+
+- User Stories.
+
+- Business Rules.
+
+- Use Cases.
+
+- ERD.
+
+Nếu thiếu hãy bổ sung.
+
+Không rút gọn.
+Prompt 15 - Ép AI bổ sung chức năng (để lấy điểm Prompt Engineering)
+Khách hàng vừa thay đổi yêu cầu.
+
+Hãy cập nhật toàn bộ hệ thống.
+
+Bổ sung:
+
+1.
+
+Khách có thể hủy Booking.
+
+2.
+
+Khách có thể đổi phòng.
+
+3.
+
+Khách có thể thanh toán Online.
+
+4.
+
+Thêm trạng thái Booking:
+
+Pending
+
+Confirmed
+
+Checked In
+
+Checked Out
+
+Cancelled
+
+5.
+
+Cập nhật lại:
+
+Business Rules
+
+Use Cases
+
+User Stories
+
+ERD
+
+Sequence Diagram
+
+Functional Requirements
+
+Chỉ trả về các phần cần thay đổi.
+Prompt 16 - Ép AI sửa sơ đồ
+Sơ đồ Use Case hiện tại còn thiếu Actor Manager.
+
+Hãy cập nhật lại.
+
+Manager cần có quyền:
+
+- Quản lý nhân viên.
+
+- Xem báo cáo.
+
+- Quản lý phòng.
+
+- Quản lý dịch vụ.
+
+Đồng thời cập nhật lại Mermaid.
+Prompt 17 - Ép AI sửa ERD
+ERD hiện tại chưa tối ưu.
+
+Hãy chuẩn hóa theo chuẩn 3NF.
+
+Kiểm tra:
+
+- Quan hệ.
+
+- Khóa ngoại.
+
+- Thuộc tính dư thừa.
+
+Nếu cần hãy thêm bảng mới.
+
+Giải thích ngắn gọn lý do chỉnh sửa.
+Prompt 18 - Xuất tài liệu cuối cùng
+Hãy tổng hợp toàn bộ nội dung thành tài liệu SRS hoàn chỉnh.
+
+Cấu trúc:
+
+1. Giới thiệu
+
+2. Mục tiêu
+
+3. Phạm vi
+
+4. Actors
+
+5. Business Flow
+
+6. Functional Requirements
+
+7. Non Functional Requirements
+
+8. Business Rules
+
+9. User Stories
+
+10. Use Cases
+
+11. Use Case Diagram
+
+12. ERD
+
+13. Sequence Diagram
+
+14. Kết luận
+
+Yêu cầu:
+
+- Chuẩn Markdown.
+
+- Không có câu như:
+
+"Here is..."
+
+"I hope..."
+
+"As requested..."
+
+- Định dạng đẹp.
+
+- Sẵn sàng chuyển sang Word hoặc PDF.
